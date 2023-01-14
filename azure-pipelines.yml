@@ -7,7 +7,7 @@ parameters:
   displayName: Succeed or fail
   type: boolean
   default: false
-  
+
 trigger:
 - master
 
@@ -16,6 +16,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+
 
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
