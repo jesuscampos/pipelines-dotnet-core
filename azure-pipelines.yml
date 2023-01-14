@@ -16,6 +16,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  MyVar: 3333
 
 
 steps:
